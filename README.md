@@ -4,11 +4,6 @@ This project uses a deep learning model to detect **toxic comments** in text dat
 
 ---
 
-## 📂 Project Structure
-
-
----
-
 ## 📊 Model Objective
 
 The goal is to classify each comment into one or more of the following categories:
