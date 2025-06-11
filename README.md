@@ -25,9 +25,9 @@ The goal is to classify each comment into one or more of the following categorie
 
 - ✅ Exploratory Data Analysis (EDA)
 - ✅ Preprocessing: lowercasing, punctuation removal, stemming
-- ✅ Vectorization using `TF-IDF` and `Tokenizer`
-- ✅ Model: Sequential Neural Network with `Dense`, `Dropout`, and `ReLU` activations
-- ✅ Evaluation: Accuracy, ROC AUC, and sample prediction outputs
+- ✅ Vectorization using `Tokenizer`
+- ✅ Model: Sequential Neural Network with `Dense`, and `ReLU` activations
+- ✅ Evaluation: Accuracy, and sample prediction outputs
 - ✅ Model saving in `.h5` format for later inference
 
 ---
@@ -38,3 +38,15 @@ To run this notebook, make sure you install:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras
+
+## ▶️ How to Run
+
+### 🔁 Clone the Repository
+
+```bash
+git clone https://github.com/AtulKharat256/Comment_Toxicity.git
+cd Comment_Toxicity
+
+## Run the jupyter notebook
+jupyter notebook Comment_Toxicity.ipynb
+
